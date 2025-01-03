@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>본인 이름 작성</title>
+    <title>심소영</title>
+    <link rel="stylesheet" href="./public/index.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div>
+        <img src="./public/codingon.png" alt="logo" class="logo-img" />
+      </div>
+      <div class="list">Todo list</div>
+    </header>
+    <div class="todo-container">
+      <div id="inputField">
+        <input type="text" id="todoInput" placeholder="할 일 추가하기" />
+        <button type="button" id="addBtn" onclick="addTodo()">
+          추가
+        </button>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
+    <script type="text/javascript" src="./public/index.js"></script>
+    <script>
+      getTodos()
+      const deleteBtn = document.querySelector()
+      deleteTodo()
+    </script>
+  </body>
 </html>
